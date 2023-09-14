@@ -1,0 +1,40 @@
+.home{
+    height: calc(100vh - 80px);
+    background-color: #1ABC9C;
+}
+
+.home-content h1{
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    padding: 15px 0;
+    margin-bottom: 40px;
+    color:#fff;
+}
+.home-content h1 i{
+    font-size: 20px;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.home-content h1::after{
+    bottom: 0;
+    z-index: 9999;
+position: absolute;
+content: '';
+width: 20%;
+height: 3px;
+background-color: #fff;
+right: 20%;
+}
+.home-content h1::before{
+    left: 20%;
+    bottom: 0;
+    z-index: 9999;
+    position: absolute;
+    content: '';
+    width: 20%;
+    height: 3px;
+    background-color: #fff;
+}

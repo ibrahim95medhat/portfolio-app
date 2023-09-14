@@ -1,0 +1,15 @@
+.back-ground{
+    background-color: #2C3E50;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    
+    background-color:#1ABC9C ;
+}
+
+@media (max-width: 768px){
+
+    .nav-link{
+        width: fit-content;
+        padding: 10px 5px;
+    }
+}
